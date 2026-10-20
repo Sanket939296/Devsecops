@@ -10,7 +10,7 @@ on:
       - 'k8-manifests/qa/backend.yaml'
       - 'k8-manifests/qa/frontend.yaml'
       - 'k8-manifests/qa/ingress.yaml'
-      - '.github/workflows/qa-cicd.yml'
+      - '.github/workflows/qa-cicd.yaml'
 
   workflow_dispatch:
 
