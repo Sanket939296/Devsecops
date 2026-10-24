@@ -16,8 +16,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - host: qa-bat.online
-      http:
+    - http:
         paths:
           - path: /
             pathType: Prefix
