@@ -17,7 +17,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - host: sai.deepsanket.site
+    - host: prod.deepsanket.site
       http:
         paths:
           - path: /
