@@ -8,7 +8,7 @@ metadata:
     alb.ingress.kubernetes.io/target-type: ip
     alb.ingress.kubernetes.io/load-balancer-name: projectops-prod-alb
     alb.ingress.kubernetes.io/listen-ports: '[{"HTTP":80},{"HTTPS":443}]'
-    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:ap-south-1:145678292045:certificate/45506512-867e-46d6-a89d-78c0083e94d1
+    alb.ingress.kubernetes.io/certificate-arn:  arn:aws:acm:ap-south-1:390034075596:certificate/2a909f54-f050-4265-b6d2-62f2583606de
     alb.ingress.kubernetes.io/ssl-redirect: "443"
     alb.ingress.kubernetes.io/healthcheck-protocol: HTTP
     alb.ingress.kubernetes.io/healthcheck-port: traffic-port
