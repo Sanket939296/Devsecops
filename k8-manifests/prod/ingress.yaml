@@ -8,7 +8,7 @@ metadata:
     alb.ingress.kubernetes.io/target-type: ip
     alb.ingress.kubernetes.io/load-balancer-name: projectops-prod-alb
     alb.ingress.kubernetes.io/listen-ports: '[{"HTTP":80},{"HTTPS":443}]'
-    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:ap-south-1:145678292045:certificate/45506512-867e-46d6-a89d-78c0083e94d1
+    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:ap-south-1:390034075596:certificate/63761cc3-c13a-48b4-89d6-abae98f3173e
     alb.ingress.kubernetes.io/ssl-redirect: "443"
     alb.ingress.kubernetes.io/healthcheck-protocol: HTTP
     alb.ingress.kubernetes.io/healthcheck-port: traffic-port
@@ -17,7 +17,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - host: prod-bat.site
+    - host: sai.deepsanket.site
       http:
         paths:
           - path: /
