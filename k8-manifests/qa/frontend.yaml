@@ -35,7 +35,7 @@ spec:
       containers:
         - name: frontend
           # GitHub Actions replaces this with the exact private ECR image.
-          image: 390034075596.dkr.ecr.ap-south-1.amazonaws.com/projectops-frontend:qa-9-1-7dc9fbb
+          image: 390034075596.dkr.ecr.ap-south-1.amazonaws.com/projectops-frontend:qa-9-2-7dc9fbb
           imagePullPolicy: IfNotPresent
 
           ports:
